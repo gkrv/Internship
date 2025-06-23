@@ -12,3 +12,8 @@ A modern, responsive Landing Page built using HTML, CSS, and JavaScript. Perfect
 - HTML5
 - CSS3
 - Bootstrap
+
+📸 Preview
+![land_preview](https://github.com/user-attachments/assets/14e8e7d9-148d-40c5-b423-f0967229eb95)
+![land_prev3](https://github.com/user-attachments/assets/ce18b53a-9557-47b0-ae69-316c70f16b4b)
+![land_prev](https://github.com/user-attachments/assets/69fe0858-d324-443e-ae35-17819315bc40)
