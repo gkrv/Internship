@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css' rel='stylesheet'>
+
+    <title> Personal-Portfolio</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <img src="images/logo.png" class="logo" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#Projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div id="header">
+
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hi, I'm <span>GAURAV</span> KUMAR MISHRA <br>From India.</h1>
+
+            <i class="fa-brands fa-github" id="socials"></i>
+            <i class="fa-brands fa-linkedin" id="socials"></i>
+        </div>
+    </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/port-Photoroom.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Maxime dolores aperiam quaerat quia repellendus odit excepturi perferendis culpa sapiente
+                        tempora.
+                        Accusamus est molestiae,labore illo vel vero. Blanditiis, molestiae alias.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-links" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Design web/App Interfaces.</li>
+                            <li><span>Full-Stack Web Developer</span><br> Design Responsive Web Applications</li>
+                            <li><span>Database Designing</span><br>Design Quality Databases</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>June,2025 - July,2025</span><br> Web Development Intern at Prodigy infoTech</li>
+                            <li><span>Freelancing</span><br>Front-End Web Developer</li>
+                            <li><span>Academic Projects</span><br>Designed CMS Web Applications<br>Designed E-education
+                                Web Application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>MCA (2023 - 2025)</span><br>Dr.A.P.J. Abdul Kalam Technical University</li>
+                            <li><span>BCA (2018 - 2021)</span><br>Jamia Hamdard University</li>
+                            <li><span>Responsive Web Designing Certificate</span><br>Freecodecamp</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h1 id="skill-logo">PROFESSIONAL SKILLS</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h1 class="skill-title">Technical Skills</h1>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-brands fa-python"></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__python">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-brands fa-html5"></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-brands fa-js"></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <h1 class="skill-title">Soft Skills</h1>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            <span class="skills__name">Problem Solving</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                            <span class="skills__name">Analytic</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="fa-brands fa-html5"></i>
+                            <span class="skills__name">Communication</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Projects">
+        <div class="container">
+            <h1 id="portfolio">MY PROJECTS</h1>
+            <div class="worklist row">
+                <div class="work col-6">
+                    <img src="images/landpage.png">
+                    <div class="layer">
+                        <h3>Landing page</h3>
+                        <p>this is the page where you land after login.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work col-6">
+                    <img src="images/watch_preview.png">
+                    <div class="layer">
+                        <h3>Stop-Watch</h3>
+                        <p>This is the Stop-Watch with built-in laps function.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work col-6">
+                    <img src="images/tictac.png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>This is the fun Tic-Tac-Toe Game with responsive designing.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-l">
+                    <h1>CONTACT ME :</h1>
+                </div>
+                <div class="contact-r">
+                    <p id="mail"><i class="fa-solid fa-envelope"></i> gkrv2210@gmail.com</p>
+                    <p id="mail"><i class="fa-solid fa-phone-volume"></i> 8130221849</p>
+                    <a id="mail"><i class="fab fa-github"></i></a>
+                    <a id="mail"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
