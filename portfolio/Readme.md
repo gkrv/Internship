@@ -20,6 +20,9 @@ A clean and responsive personal portfolio website built using **HTML5**, **CSS3*
 
 
 🖥️ **Preview**
+
 ![portfo](https://github.com/user-attachments/assets/c3b14d90-88c6-4d97-aba5-db4b61678340)
+
 ![port](https://github.com/user-attachments/assets/24fad212-4226-42e1-b2a9-cc99d289f109)
+
 ![portfol](https://github.com/user-attachments/assets/23a299b3-3742-4a2c-b957-28de5a0ff390)
